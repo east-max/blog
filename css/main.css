@@ -1804,7 +1804,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #dbadc1;
+  background: #ffff9f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2114,14 +2114,6 @@ pre .javascript .function {
   50%, 70% {
     transform: scale(1.1);
   }
-}
-.gt-header a,
-.gt-comments a,
-.gt-popup a {
-  border-bottom: none;
-}
-.gt-container .gt-popup .gt-action.is--active::before {
-  top: 0.7em;
 }
 .local-search-pop-overlay {
   background-color: rgba(0,0,0,0.3);
@@ -2586,21 +2578,6 @@ embed {
 @media (min-width: 992px) {
   .menu .menu-item .fa {
     width: 100%;
-  }
-}
-.sidebar {
-  left: 0;
-  right: auto;
-}
-.sidebar-toggle,
-.back-to-top {
-  left: 30px;
-  right: auto;
-}
-@media (max-width: 991px) {
-  .sidebar-toggle,
-  .back-to-top {
-    left: 20px;
   }
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
